@@ -8,13 +8,13 @@ app = Flask(__name__, template_folder="templates", static_folder="static")
 
 
 @app.route("/")
-@app.route("/index")
+@app.route("/index/")
 
 def index():
     return render_template("index.html")
 
 
-@app.route("/contacts")
+@app.route("/contacts/")
 
 def contacts():
     return render_template("contacts.html")
