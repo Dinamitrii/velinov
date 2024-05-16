@@ -2,7 +2,7 @@ from flask import Flask, render_template
 from waitress import serve
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=True)
 
 app = Flask(__name__, template_folder="templates", static_folder="static")
 
@@ -21,4 +21,4 @@ def contacts():
 
 
 if __name__ == "__main__":
-    serve(app.run(host="0.0.0.0", port=8000, debug=True)) # type: ignore
+    serve(app.run()) # type: ignore
