@@ -1,0 +1,12 @@
+.NapkinsGallery {
+    border-style: solid;
+    border-color: whitesmoke;
+    padding: 20px;
+    margin: 20px;
+    background: linearGradient(to right, #f7f8fd, #f1d23a);
+}
+
+
+html{
+    background: linearGradient(to right, #f7f8fd, #f1d23a);
+}

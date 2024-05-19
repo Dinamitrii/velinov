@@ -25,5 +25,11 @@ def contacts():
 def mosaic():
     return render_template("mosaic.html")
 
+
+@app.route("/napkins/")
+
+def napkins():
+    return render_template("napkins.html")
+
 if __name__ == "__main__":
     serve(app.run()) # type: ignore
