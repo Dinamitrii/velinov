@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for
 from waitress import serve
 from dotenv import load_dotenv
 
@@ -21,6 +21,12 @@ def contacts():
 @app.route("/napkins/")
 def napkins():
     return render_template("napkins.html")
+
+
+# The code below lets the Flask server respond to browser requests for a favicon
+@app.route("/favicon.ico")
+def favicon():
+    return url_for('static', filename='data:,')
 
 
 if __name__ == "__main__":
