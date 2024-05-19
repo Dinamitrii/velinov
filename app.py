@@ -19,12 +19,6 @@ def index():
 def contacts():
     return render_template("contacts.html")
 
-
-@app.route("/mosaic/")
-
-def mosaic():
-    return render_template("mosaic.html")
-
 @app.route("/napkins/")
 
 def napkins():
