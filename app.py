@@ -25,11 +25,16 @@ def contacts():
 def mosaic():
     return render_template("mosaic.html")
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0cb564ecf3975c5ed6baac3c90f01f4fdd97a3fe
 @app.route("/napkins/")
 
 def napkins():
     return render_template("napkins.html")
 
+<<<<<<< HEAD
 
 @app.route("/kitchen/")
 
@@ -42,5 +47,7 @@ def toipaper():
     return render_template("toipaper.html")
 
 
+=======
+>>>>>>> 0cb564ecf3975c5ed6baac3c90f01f4fdd97a3fe
 if __name__ == "__main__":
     serve(app.run()) # type: ignore
