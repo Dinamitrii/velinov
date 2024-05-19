@@ -9,20 +9,19 @@ app = Flask(__name__, template_folder="templates", static_folder="static")
 
 @app.route("/")
 @app.route("/index")
-
 def index():
     return render_template("index.html")
 
 
 @app.route("/contacts/")
-
 def contacts():
     return render_template("contacts.html")
 
-@app.route("/napkins/")
 
+@app.route("/napkins/")
 def napkins():
     return render_template("napkins.html")
 
+
 if __name__ == "__main__":
-    serve(app.run()) # type: ignore
+    serve(app.run(host="0.0.0.0", port=8000))
