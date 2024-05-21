@@ -29,5 +29,10 @@ def favicon():
     return url_for('static', filename='images/favicon/favicon.ico')
 
 
+@app.route("/rollstp/")
+def kitchen_rolls_tp():
+    return render_template('rollstp.html')
+
+
 if __name__ == "__main__":
     serve(app.run(host="0.0.0.0", port=8000))
