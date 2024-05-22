@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
+    <meta charset="UTF-8">
+    <title>Kitchen Rolls and Tp</title>
     <link type="text/css" rel="stylesheet" href="{{ url_for('static',filename='styles/napkins.css') }}"/>
 
-    <title>Kitchen Rolls and Tp</title>
-
     <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/apple-touch-icon.png') }}"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='images/favicon/favicon-32x32.png') }}"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='/images/favicon/favicon-32x32.png') }}"/>
     <link rel="icon" type="image/png" sizes="16x16" href=" {{ url_for('static', filename='images/favicon/favicon-16x16.png') }}"/>
     <link rel="manifest" href="{{ url_for('static', filename='images/favicon/site.webmanifest') }}"/>
     <link rel="mask-icon" href="{{ url_for('static', filename='images/favicon/safari-pinned-tab.svg', color='#5bbad5') }}"/>
@@ -22,32 +19,16 @@
 </head>
 <body>
 
-<h2>Kitchen Rolls and Tp</h2>
+<h2>Kitchen Rolls and Tp Gallery</h2>
 
 <hr>
 
 <h4>Kitchen Rolls and Tp</h4>
 
-<hr>
-
-<div class="rollstpGall">
-
-    <a href="/contacts">
-
-    <img src="/static/images/gallery/kitchen-roll-white-single.jpg" alt="Kitchen Roll" width="300" height="300" />
-    <img src="/static/images/gallery/kitchen-roll-white-24-pack.jpg" alt="Kitchen Roll" width="450" height="300" />
-    <img src="/static/images/gallery/kitchen-roll-white-4-pack.jpg" alt="Kitchen Roll" width="300" height="300" />
-    <img src="/static/images/gallery/tp-white-40.jpg" alt="Toilet Paper" width="300" height="300" />
-    </a>
-</div>
-
-<div class="paragraph">
-    <a href="/contacts">
-    <p>primerno kontaktite tuk</p>
-    </a>
-</div>
-
-<hr>
+    <img src="/static/images/gallery/kitchen-roll-white-single.jpg" alt="Kitchen Roll"/>
+    <img src="/static/images/gallery/kitchen-roll-white-24-pack.jpg" alt="Kitchen Roll"/>
+    <img src="/static/images/gallery/kitchen-roll-white-4-pack.jpg" alt="Kitchen Roll"/>
+    <img src="/static/images/gallery/tp-white-40.jpg" alt="Toilet Paper"/>
 
 </body>
 </html>
