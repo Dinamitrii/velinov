@@ -26,7 +26,7 @@ def napkins():
 # The code below lets the Flask server respond to browser requests for a favicon
 @app.route("/favicon.ico")
 def favicon():
-    return url_for('static', filename='images/favicon/favicon.ico')
+    return url_for('static', filename='images/favicon/favicon.ico'), url_for('static', filename='images/favicon/favicon-16x16.png')
 
 
 @app.route("/rollstp/")
