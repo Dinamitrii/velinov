@@ -1,4 +1,5 @@
 .napkinsGall {
+    box-sizing: content-box;
     border-style: solid;
     border-color: whitesmoke;
     padding: 10px;
@@ -12,6 +13,10 @@
     padding: 10px;
     margin: 10px;
     background: linear-gradient(to right, #06d16c, #0d2dcc);
+
+}
+
+img {
 
 }
 
