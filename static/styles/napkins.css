@@ -1,6 +1,8 @@
 .napkinsGall {
     border-style: solid;
     border-color: whitesmoke;
+    width: auto;
+    height: auto;
     padding: 10px;
     margin: 10px;
     background: linear-gradient(to right, #06d16c, #0d2dcc);
@@ -9,6 +11,8 @@
 .rollstpGall {
     border-style: solid;
     border-color: gray;
+    width: auto;
+    height: auto;
     padding: 10px;
     margin: 10px;
     background: linear-gradient(to right, #06d16c, #0d2dcc);
