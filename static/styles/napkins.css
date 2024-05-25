@@ -1,10 +1,10 @@
 .napkinsGall {
     border-style: solid;
     border-color: whitesmoke;
-    object-fit: fill;
     padding: 10px;
     margin: 10px;
     background: linear-gradient(to right, #06d16c, #0d2dcc);
+    border-width: initial;
 }
 
 .rollstpGall {
