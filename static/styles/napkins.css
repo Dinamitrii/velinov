@@ -1,6 +1,6 @@
 .napkinsGall {
     border-style: solid;
-    border-color: whitesmoke;
+    border-color: gray;
     padding: 10px;
     margin: 10px;
     background: linear-gradient(to right, #06d16c, #0d2dcc);
@@ -16,8 +16,12 @@
 }
 
 img {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+p {
+    text-align: right;
 }
 
 html {
