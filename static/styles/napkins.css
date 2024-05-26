@@ -10,7 +10,7 @@
     border-style: solid;
     border-color: gray;
     padding: 10px;
-    margin-right: auto;
+    margin-right: unset;
     background: linear-gradient(to right, #06d16c, #0d2dcc);
 
 }
@@ -20,7 +20,7 @@
     border-style: solid;
     border-color: gray;
     padding: 10px;
-    margin-right: auto;
+    margin-right: unset;
 }
 
 html {
