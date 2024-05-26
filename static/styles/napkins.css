@@ -17,7 +17,7 @@
 
 
 .paragraph {
-    border-style: wave;
+    border-style: solid;
     border-color: gray;
     padding: 10px;
 }
