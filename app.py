@@ -13,12 +13,12 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/contacts/")
+@app.route("/contacts")
 def contacts():
     return render_template("contacts.html")
 
 
-@app.route("/napkins/")
+@app.route("/napkins")
 def napkins():
     return render_template("napkins.html")
 
@@ -38,7 +38,7 @@ def favicon():
             url_for('static', filename='images/favicon/site.webmanifest'))
 
 
-@app.route("/rollstp/")
+@app.route("/rollstp")
 def kitchen_rolls_tp():
     return render_template('rollstp.html')
 
