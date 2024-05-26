@@ -16,9 +16,11 @@
 }
 
 
-p {
-
-    vertical-align: middle;
+.paragraph {
+    border-style: solid;
+    border-color: gray;
+    padding: 10px;
+    margin: 10px;
 }
 
 html {
