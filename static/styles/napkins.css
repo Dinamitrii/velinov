@@ -17,10 +17,9 @@
 
 
 .paragraph {
-    border-style: solid;
+    border-style: wave;
     border-color: gray;
     padding: 10px;
-    margin-right: unset;
 }
 
 html {
