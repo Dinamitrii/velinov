@@ -69,3 +69,7 @@
     scale: 1.00;
   }
    */
+
+html {
+    background: linear-gradient(to right, #0d2dcc, #1dd60d);
+    }
