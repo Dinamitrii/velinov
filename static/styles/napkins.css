@@ -17,9 +17,10 @@
 
 
 .paragraph {
+    border-position: absolute;
     border-style: solid;
     border-color: gray;
-    padding: 10px;
+    padding: 10px 50px 10px 10px;
 }
 
 html {
