@@ -1,11 +1,35 @@
-.NapkinsGallery {
+.napkinsGall {
+    box-sizing: border-box;
     border-style: solid;
-    border-color: rgba(219, 8, 8, 0.863);
-    padding: 20px;
-    margin: 20px;
-    background: linearGradient(to right, #06d16c, #e2f10c);
+    position: relative;
+    border-color: gray;
+    width: fit-content;
+    padding: 10px;
+    margin: 10px auto 10px 10px;
+    background: linear-gradient(to right, #06d16c, #0d2dcc);
 }
 
-html{
-    background: linearGradient(to right, #0d2dcc, #1dd60d);
+.rollstpGall {
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: gray;
+    position: relative;
+    width: fit-content;
+    padding: 10px;
+    margin: 10px auto 10px 10px;
+    background: linear-gradient(to right, #06d16c, #0d2dcc);
+
 }
+
+
+.paragraph {
+    box-sizing: border-box;
+    position: relative;
+    border-style: solid;
+    border-color: gray;
+    padding: 10px;
+}
+
+html {
+    background: linear-gradient(to right, #0d2dcc, #1dd60d);
+    }
