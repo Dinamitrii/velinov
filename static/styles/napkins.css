@@ -24,7 +24,7 @@
 
 .paragraph {
     box-sizing: border-box;
-    border-position: absolute;
+    position: relative;
     border-style: solid;
     border-color: gray;
     padding: 10px;
