@@ -1,6 +1,7 @@
 .napkinsGall {
     box-sizing: border-box;
     border-style: solid;
+    position: relative;
     border-color: gray;
     width: fit-content;
     padding: 10px;
@@ -12,6 +13,7 @@
     box-sizing: border-box;
     border-style: solid;
     border-color: gray;
+    position: relative;
     width: fit-content;
     padding: 10px;
     margin: 10px auto 10px 10px;
