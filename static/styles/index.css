@@ -12,9 +12,8 @@
     font-family: system-ui- sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #222;
-    background-color: #fff;
-    border-top: 10px solid #f1d23a;
+    background: linear-gradient(to right, #0d2dcc, #1dd60d);
+    //* border-top: 10px solid #f1d23a;*//
     padding: 40px 80px;
   }
   
@@ -70,6 +69,3 @@
   }
    */
 
-html {
-    background: linear-gradient(to right, #0d2dcc, #1dd60d);
-    }
