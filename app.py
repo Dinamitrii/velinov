@@ -35,7 +35,7 @@ def favicon():
             url_for('static', filename='images/favicon/safari-pinned-tab.svg'),
             url_for('static', filename='images/favicon/mstile-150x150.png'),
             url_for('static', filename='images/favicon/browserconfig.xml'),
-            url_for('static', filename='images/favicon/site.webmanifest'))
+            url_for('static', filename='images/favicon/site.webmanifest')
 
 
 @app.route("/rollstp")
