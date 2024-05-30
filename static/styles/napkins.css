@@ -13,7 +13,7 @@
     box-sizing: border-box;
     border-style: solid;
     border-color: #3298e8;
-    position: static;
+    position: relative;
     width: fit-content;
     padding: 10px;
     margin: 10px auto 10px 10px;
@@ -24,7 +24,7 @@
 
 .paragraph {
     box-sizing: border-box;
-    position: static;
+    position: relative;
     border-style: solid;
     border-color: #3298e8;
     width: fit-content;
