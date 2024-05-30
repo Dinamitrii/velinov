@@ -26,7 +26,8 @@
     box-sizing: border-box;
     position: relative;
     border-style: solid;
-    border-color: gray;
+    border-color: #3298e8;
+    width: fit-content;
     padding: 10px;
 }
 
