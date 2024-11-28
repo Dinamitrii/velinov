@@ -20,7 +20,7 @@ def contacts():
 
 @app.route("/napkins")
 def napkins():
-    return render_template("napkins.html")
+    return render_template("fast-food.html")
 
 
 # The code below lets the Flask server respond to browser requests for a favicon
@@ -40,7 +40,7 @@ def favicon():
 
 @app.route("/rollstp")
 def kitchen_rolls_tp():
-    return render_template('rollstp.html')
+    return render_template('meals.html')
 
 
 if __name__ == "__main__":
