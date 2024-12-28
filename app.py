@@ -48,6 +48,8 @@ def favicon():
             url_for('static', filename='images/favicon/site.webmanifest'))
 
 
+# The code below lets the Flask server respond to crawler request for robots.txt and sitemap files
+
 @app.route('/robots.txt')
 @app.route('/sitemap.xml')
 def static_from_root():
