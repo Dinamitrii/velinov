@@ -23,14 +23,14 @@ def kitchen_rolls_tp():
     return render_template('rolls-tp.html')
 
 
-@app.route("/contacts")
-def contacts():
-    return render_template("contacts.html")
-
-
 @app.route("/napkins")
 def napkins():
     return render_template("napkins.html")
+
+
+@app.route("/contacts")
+def contacts():
+    return render_template("contacts.html")
 
 
 # The code below lets the Flask server respond to browser requests for a favicon
@@ -54,7 +54,6 @@ def favicon():
 @app.route('/sitemap.xml')
 def static_from_root():
     return send_from_directory(app.static_folder, request.path[1:])
-
 
 
 if __name__ == "__main__":
