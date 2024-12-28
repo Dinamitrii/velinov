@@ -1,4 +1,4 @@
-from flask import Flask, render_template, url_for
+from flask import Flask, render_template, url_for, send_from_directory, request
 from waitress import serve
 from dotenv import load_dotenv
 
@@ -46,6 +46,13 @@ def favicon():
             url_for('static', filename='images/favicon/mstile-150x150.png'),
             url_for('static', filename='images/favicon/browserconfig.xml'),
             url_for('static', filename='images/favicon/site.webmanifest'))
+
+
+@app.route('/robots.txt')
+@app.route('/sitemap.xml')
+def static_from_root():
+    return send_from_directory(app.static_folder, request.path[1:])
+
 
 
 if __name__ == "__main__":
