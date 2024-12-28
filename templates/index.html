@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-    <title>Velinov gallery</title>
+    <title>Velinov`s gallery</title>
   
     <link type="text/css" rel="stylesheet" href="{{ url_for('static',filename='styles/napkins.css') }}"/>
+
     <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/apple-touch-icon.png') }}"/>
     <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='/images/favicon/favicon-32x32.png') }}"/>
     <link rel="icon" type="image/png" sizes="16x16" href=" {{ url_for('static', filename='images/favicon/favicon-16x16.png') }}"/>
@@ -21,7 +22,8 @@
 </head>
 
 <body>
-    <h1>To The Velinov`s Gallery</h1>
+
+<h1>To The Velinov`s Gallery</h1>
 
     <hr>
 
@@ -29,11 +31,23 @@
 
     <hr>
 
-    <h4>Click the button bellow</h4>
-
-    <button id="Enter" type="button" onclick="window.location.href = '{{ url_for('gallery') }}' ; " class="button">Enter the gallery</button>
+    <h4>Click the button bellow or directly to purchase product of your choice</h4>
 
     <hr>
+
+    <div class="index"></div>
+
+    <a href="/contacts">
+
+        <img src="/static/images/gallery/kitchen-roll-white-single.jpg" alt="Kitchen Roll" width="300" height="300"/>
+        <img src="/static/images/gallery/napkins-blue-lux.jpg" alt="Napkins" width="300" height="300"/>
+        <img src="/static/images/gallery/tp-white-40.jpg" alt="Toilet Paper" width="300" height="300"/>
+
+
+    </a>
+    <hr>
+
+    <button id="Enter" type="button" onclick="window.location.href = '{{ url_for('gallery') }}' ; " class="button">Enter the gallery</button>
 
 </body>
 
