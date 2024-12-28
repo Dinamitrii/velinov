@@ -13,6 +13,16 @@ def index():
     return render_template("index.html")
 
 
+@app.route("/gallery")
+def gallery():
+    return render_template("gallery.html")
+
+
+@app.route("/rolls-tp")
+def kitchen_rolls_tp():
+    return render_template('rolls-tp.html')
+
+
 @app.route("/contacts")
 def contacts():
     return render_template("contacts.html")
@@ -36,11 +46,6 @@ def favicon():
             url_for('static', filename='images/favicon/mstile-150x150.png'),
             url_for('static', filename='images/favicon/browserconfig.xml'),
             url_for('static', filename='images/favicon/site.webmanifest'))
-
-
-@app.route("/rollstp")
-def kitchen_rolls_tp():
-    return render_template('rollstp.html')
 
 
 if __name__ == "__main__":
