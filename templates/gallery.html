@@ -6,7 +6,7 @@
   
     <title>Velinov gallery</title>
   
-    <link type="text/css" rel="stylesheet" href="{{ url_for('static',filename='styles/index.css') }}"/>
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static',filename='styles/gallery.css') }}"/>
     <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon/apple-touch-icon.png') }}"/>
     <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='/images/favicon/favicon-32x32.png') }}"/>
     <link rel="icon" type="image/png" sizes="16x16" href=" {{ url_for('static', filename='images/favicon/favicon-16x16.png') }}"/>
@@ -61,5 +61,5 @@
 </body>
 
 <footer>TM here and COPYRIGHTS</footer>
-
+<button id="Index" type="button" onclick="window.location.href = '{{ url_for('index') }}' ; " class="button">Back to the Index</button>
 </html>
